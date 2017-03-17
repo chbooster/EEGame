@@ -89,7 +89,7 @@ void Game::update(){
 	deltaTime = currentFrame - lastFrame;
 	lastFrame = currentFrame;
 
-	cout << deltaTime << endl;
+	//cout << deltaTime << endl;
 	//Call to check input events
 	ioEvents();
 
